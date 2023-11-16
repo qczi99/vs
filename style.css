@@ -1,0 +1,252 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        scroll-behavior: smooth;
+} 
+
+.container{
+        color: #323232;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: url(tlo.jpg);
+        width: 100%;
+        min-height: 100vh;
+        background-attachment: fixed;
+    }
+
+    .container h1{
+        font-size: 75px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.95);
+        padding: 1rem;
+        border-radius: 2rem;
+        cursor: pointer;
+    }
+    
+
+    .container span {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        }
+    
+    .container a{
+        text-decoration: none;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.95);
+        padding: 0.8rem;
+        font-size: 30px;
+        color: #323232;
+        font-weight: bold;
+        border-radius: 2rem;
+        margin-left: 15px;
+    }
+
+    .container a:hover{
+        background-color: #fff;
+        transition: all 0.5s;
+    }
+    
+
+    .logo{
+        position: absolute;
+        left: -105px;
+    }
+    .social{
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        box-shadow: ;
+        border-radius: 2rem;
+        width: 70px;
+    }
+
+    #oklubie{
+        color: #323232;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: url(oklubie.jpg);
+        width: 100%;
+        min-height: 100vh;
+    }
+    #oklubie h2{
+        font-size: 90px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.95);
+        padding: 0.5rem;
+        border-radius: 7rem;
+        cursor: pointer;
+        margin: 15px;
+        background-color: gainsboro;
+        width: 20vw;
+    }
+    #oklubie p{
+        text-decoration: none;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.95);
+        padding: 1.6rem;
+        font-size: 30px;
+        color: #323232;
+        font-weight: bold;
+        border-radius: 2rem;
+        margin: 10px;
+        background-color: gainsboro;
+    }
+    #oklubie a{
+        text-decoration: none;
+    }
+    #oklubie p:hover{
+        background-color: #323232;
+        color: #fff;
+        transition: all 0.5s;
+    }
+    #terminarz{
+        color: #323232;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-image: url(terminarz.png);
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    #terminarz p{
+        text-decoration: none;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.95);
+        padding: 0.8rem;
+        font-size: 25px;
+        color: #323232;
+        background-color: gainsboro;
+        border-radius: 2rem;
+        margin: 5px;  
+    }
+    #terminarz span{
+        color: #C80000;
+        font-weight: bold;
+    }
+    #terminarz h1{
+        font-size: 45px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.95);
+        padding: 0.5rem;
+        border-radius: 7rem;
+        cursor: pointer;
+        margin: 15px;
+        background-color: gainsboro;
+        width: 20vw;
+    }
+
+    #tabela{
+        color: #323232;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+        background: url(tabela.jpg);
+        background-size: cover;
+    }
+    #tabela h1{
+        font-size: 60px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.95);
+        padding: 0.5rem;
+        border-radius: 6rem;
+        cursor: pointer;
+        margin: 13px;
+        background-color: gainsboro;
+        width: 20vw;
+    }
+    td, table{
+        border: 2px black solid;
+        border-radius: 1.2rem;
+        font-size: 35px;
+        font-family: 'Poppins' sans-serif;
+        background-color: gainsboro;
+        color: #323232;
+        padding: 0.27rem;
+    }
+    #vct{
+        font-weight: bold;
+        color: #C80000;
+        }
+
+    .top{
+        font-weight: bold;
+    }
+
+    #kibice{
+        color: #323232;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+        background: url(uv.jpg);
+        width: 100%;
+        min-height: 100vh;
+    }
+    #kibice h1{
+        font-size: 120px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.95);
+        padding: 0.5rem;
+        border-radius: 7rem;
+        cursor: pointer;
+        margin: 15px;
+        background-color: gainsboro;
+        width: 60vw;
+    }
+
+    #oklubie .up{
+        position: absolute;
+        top: 101vh;
+        left: 95vw;
+    }
+
+    #oklubie .down{
+        position: absolute;
+        top: 107vh;
+        left: 95vw;
+    }
+
+    #terminarz .up{
+        position: absolute;
+        top: 201vh;
+        left: 95vw;
+    }
+
+    #terminarz .down{
+        position: absolute;
+        top: 207vh;
+        left: 95vw;
+    }
+    #tabela .up{
+        position: absolute;
+        top: 301vh;
+        left: 95vw;
+    }
+
+    #tabela .down{
+        position: absolute;
+        top: 307vh;
+        left: 95vw;
+    }
+    #kibice .up{
+        position: absolute;
+        top: 401vh;
+        left: 95vw;
+    }
+
+    .break{
+        background-color: #323232;
+        width: 100%;
+        min-height: 20vh;
+    }
+    
